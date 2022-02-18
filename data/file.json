@@ -1,0 +1,14 @@
+{
+	"Datos_de_la_cuenta":{
+		"Numero_cuenta": 4444555566667777,
+		"Tipo_de_cuenta": "01",
+		"Cantidad_de_dinero": 100000,
+		"FIID_del_banco": "BMBS"
+	},
+	"Datos_del_titular":{
+		"Nombre_del_titular": "Ignacio",
+		"Apellido_del_titular": "Antonuccio",
+		"Numero_de_DNI": 35366170,
+		"Pin_del_titular": 1234
+	}
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INGRESO</title>
+</head>
+<body>
+<img src="welcomelogo.png">
+<div id="padnumerico">
+<input id="ingresotexto" placeholder="Enter the Account Number"></input>
+<br>
+<br>
+<button class="botonespad" onclick="clickenteclado(1,16)">1</button>
+<button class="botonespad" onclick="clickenteclado(2,16)">2</button>
+<button class="botonespad" onclick="clickenteclado(3,16)">3</button>
+<br>
+<br>
+<button class="botonespad" onclick="clickenteclado(4,16)">4</button>
+<button class="botonespad" onclick="clickenteclado(5,16)">5</button>
+<button class="botonespad" onclick="clickenteclado(6,16)">6</button>
+<br>
+<br>
+<button class="botonespad" onclick="clickenteclado(7,16)">7</button>
+<button class="botonespad" onclick="clickenteclado(8,16)">8</button>
+<button class="botonespad" onclick="clickenteclado(9,16)">9</button>
+<br>
+<br>
+<button class="botonespad" onclick="clickenteclado(0,16)">0</button>
+<button class="botonespad" onclick="clickenteclado('00',16)">00</button>
+<button class="botonespad" onclick="clickenteclado('del',16)">Delete</button>
+</div>
+
+<div id="ModalEmpty" class="modal">
+		<div class="modal-content">
+		  <h1>The Account Number field is empty.</h1>
+		  <p class="mid">Please, enter the Account Number field.</p>
+		  <button id="emptymodalexit" class="salir"> OK </button>
+		</div>
+  
+	  </div> 
+
+<div id="ModalExist" class="modal">
+		<div class="modal-content">
+		  <h1>The Account Number not exists.</h1>
+		  <p class="mid">Please, enter the Account Number field.</p>
+		  <button id="existmodalexit" class="salir"> OK </button>
+		</div>
+  
+	  </div> 
+
+<div id="ModalDigits" class="modal">
+		<div class="modal-content">
+		  <h1>The Account Number must be 16 digits.</h1>
+		  <p class="mid">Please, enter again the Account Number field.</p>
+		  <button id="digitsmodalexit" class="salir"> OK </button>
+		</div>
+  
+	  </div> 
+
+
+</div>
+<div class="footer">
+		<button class="boton-exit" OnClick="volver()">Exit</button>
+		<button class="boton-login" OnClick="validarCuenta()">Continuar</button>
+</div>
+</body>
+</html>

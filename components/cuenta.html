@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INGRESO</title>
+</head>
+<body>
+<img src="welcomelogo.png">
+
+<div id="divcuenta">
+<center id="center">
+<script>
+
+$.ajax({url:"./data/file1.json", success: function(result){
+
+var cuentas = result.cuentas;
+console.log(cuentas);
+
+for (j = 0; j <= idCuentaEncontrada.length; j++){
+
+const div1 = document.createElement("div");
+div1.className = "divrojo";
+div1.textContent = "CardHolder: "+ cuentas[idCuentaEncontrada[j]].nombre + " " + cuentas[idCuentaEncontrada[j]].apellido;
+document.getElementById("center").appendChild(div1);
+
+
+const div2 = document.createElement("div");
+div2.className = "divblanco";
+div2.textContent = "ID: " + cuentas[idCuentaEncontrada[j]].dni;
+document.getElementById("center").appendChild(div2);
+
+const div3 = document.createElement("div");
+div3.className = "divrojo";
+div3.textContent = "Account: " + cuentas[idCuentaEncontrada[j]].tipo_letras + " " + cuentas[idCuentaEncontrada[j]].moneda +" " + cuentas[idCuentaEncontrada[j]].n;
+document.getElementById("center").appendChild(div3);
+
+const div4 = document.createElement("div");
+div4.className = "divblanco";
+div4.textContent = "Bank: " + cuentas[idCuentaEncontrada[j]].fiid;
+document.getElementById("center").appendChild(div4);
+
+
+const div5 = document.createElement("div");
+div5.className = "divrojo";
+div5.textContent = "Cash: " + cuentas[idCuentaEncontrada[j]].saldo;
+document.getElementById("center").appendChild(div5);
+
+const div6 = document.createElement("div");
+div6.className = "divblanco";
+document.getElementById("center").appendChild(div6);
+
+const div7 = document.createElement("div");
+div7.className = "divblanco";
+document.getElementById("center").appendChild(div7);
+
+const div8 = document.createElement("div");
+div8.className = "divblanco";
+document.getElementById("center").appendChild(div8);
+
+}
+
+idCuentaEncontrada = [];
+
+}})
+
+
+
+</script>
+
+</center>
+</div>
+
+<div class="footer">
+		<button class="boton-exit" OnClick="location.href='boot.html' 	">Exit</button>
+</div>
+</body>
+</html>

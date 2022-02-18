@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#padnumerico{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+.divrojo{
+    background-color: #D0204E;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    color: white;
+    width: 500px;
+    height: 30px;
+}
+
+.divblanco{
+    background-color: white;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+	color: #D0204E;
+    width: 500px;
+    height: 30px;
+}
+
+#divcuenta{
+    padding-top: 160px;
+    padding-bottom: 130px;
+    align-content: center;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+
+}
+.botonespad{
+    background-color: white;
+    padding: 2px;
+    border: 2px solid #D0204E;
+    border-radius: 5px;
+	color: #D0204E;
+    width: 100px;
+    height: 60px;
+}
+
+#ingresotexto{
+    border: 2px solid #D0204E;
+    border-radius: 5px;
+	color: #D0204E;
+    position: relative;
+    width: 310px;
+    height: 50px;
+}
+
+#welcometexto{
+    padding-top: 170px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    display: grid;
+}
+
+#subwelcometexto{
+    padding-bottom: 170px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-content: center;
+    text-align: center;
+    font-size: medium;
+    display: grid;  
+}
+
+.footer{
+    background-color: lightgrey;
+	height: 115px;
+}
+
+
+.boton-exit{
+    background-color: #D0204E;
+	color: white;
+	border-radius: 24px;
+	height: 50px;
+	width: 200px;
+	position: relative;
+	top: 30px;
+	left: 15px;
+}
+
+.boton-login{
+    border: 3px solid #D0204E;
+	color: #D0204E;
+	border-radius: 24px;
+	height: 50px;
+	position: relative;
+	width: 200px;
+	left: 950px;
+	top: 30px;
+}
+ 
+ 
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+} 
+ 
+
+
+
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-content: center;
+    text-align: center;
+    height: 220px;
+    border: 2px solid #D0204E;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+  .salir{
+    background-color: #D0204E;
+	color: white;
+	border-radius: 24px;
+	height: 50px;
+	width: 200px;
+	position: relative;
+	top: 30px;
+	left: 15px;
+  }

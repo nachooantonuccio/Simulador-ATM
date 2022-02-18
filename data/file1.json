@@ -1,0 +1,15 @@
+{
+	"cuentas":[{"t":"01","n":"4444555566667777","e":"1","moneda":"$","tipo_letras":"CC","saldo":"1500", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1234"},
+		{"t":"01","n":"4444555566666666","e":"1","moneda":"$","tipo_letras":"CC","saldo":"-600", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"01","n":"4444555566666666","e":"1","moneda":"$","tipo_letras":"CC","saldo":"745", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"01","n":"4444555577776666","e":"1","moneda":"$uy","tipo_letras":"CA","saldo":"852.36", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"01","n":"6666555544447777","e":"1","moneda":"$","tipo_letras":"CC","saldo":"569", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"01","n":"8723783267060000","e":"1","moneda":"$","tipo_letras":"CA","saldo":"25000", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"01","n":"8723783267070000","e":"1","moneda":"$uy","tipo_letras":"CC","saldo":"25000", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"01","n":"8723783267080000","e":"1","moneda":"u$s","tipo_letras":"CCP","saldo":"659", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"01","n":"8723783267090000","e":"1","moneda":"$","tipo_letras":"CC","saldo":"458", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"01","n":"8723783267100000","e":"1","moneda":"bs","tipo_letras":"CC","saldo":"700", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"01","n":" ","e":"1","moneda":"$","tipo_letras":"CC","saldo":"6458925", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"11","n":"8723783278230000","e":"1","moneda":"$","tipo_letras":"CA","saldo":"250", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"},
+		{"t":"12","n":"8723783278230000","e":"1","moneda":"u$s","tipo_letras":"CA","saldo":"45", "fiid": "BMBS", "nombre": "Ignacio", "apellido": "Antonuccio", "dni": "35366170", "pin": "1235"}]
+}
