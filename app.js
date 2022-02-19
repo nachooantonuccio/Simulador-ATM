@@ -10,7 +10,7 @@ $('#inicio').click(function () {
 });
 
 
-function Continuar(){
+function continuar(){
     $('#welcome').load("./components/ingreso.html");
 }
 
@@ -204,9 +204,7 @@ function volver(){
 function clickenteclado(numpress,limit){
  
   var inputVal = document.getElementById('ingresotexto').value;
-  
-  console.log("boton " + numpress + " valor actual: " + inputVal + " tamaño: " + inputVal.length);
-  
+    
   if (numpress == 'del'){
     inputVal = "";
     document.getElementById('ingresotexto').value="";
