@@ -200,7 +200,6 @@ function volver(){
     $('#welcome').load("./components/welcome.html"); 
 }
 
-
 function clickenteclado(numpress,limit){
  
   var inputVal = document.getElementById('ingresotexto').value;
